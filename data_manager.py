@@ -36,4 +36,4 @@ class DataManager:
                 json = new_data,
                 headers = self.headers
             )
-            print(response.text)
+        print(response.text)
